@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 16px;
+}
+
+a {
+	color: #6e6e6e;
+}
+
+a:hover {
+	color: #ff8000;
+}
+
+.layui-layer-page .layui-layer-title {
+	font-size: 16px;
+	color: red;
+}
+
+.layui-layer-page .layui-layer-content {
+	font-size: 20px;
+	text-align: center;
+	color: #C0C0C0;
+	top: 20%;
+}

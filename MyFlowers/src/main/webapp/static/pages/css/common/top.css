@@ -1,0 +1,310 @@
+/* CSS Initializing */
+pre {
+	white-space: normal;
+}
+
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, form, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: #000000;
+	line-height: 23px;
+	background: #ffffff;
+	background-size: 100%;
+}
+
+img {
+	border: 0;
+}
+
+ul, li {
+	list-style: none;
+	list-style-type: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%
+} /* 字体加粗与否，视页面标题更改 */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: bold;
+} /* 字体加粗与否，视页面标题更改 */
+i, b {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+input, button, textarea, select {
+	vertical-align: middle;
+}
+
+input {
+	height: 18px;
+	color: #000000;
+	line-height: 18px;
+}
+
+select {
+	height: 23px;
+	color: #000000;
+	line-height: 23px;
+}
+
+button {
+	cursor: pointer
+}
+
+em, cite {
+	font-style: normal;
+}
+
+a {
+	color: #010101;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #da0e78;
+	text-decoration: none;
+	list-style: none;
+}
+
+.txtlf {
+	text-align: left;
+}
+
+.txtrg {
+	text-align: right;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+	margin-right: 5%;
+}
+
+.fix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+} /*清除浮动的一种方法，将此class名写在内部有浮动的标签中，便可清除子字元素的浮动，使用非常方便*/
+.fix {
+	zoom: 1;
+}
+
+.clearfixed:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden
+}
+
+.clearfixed {
+	zoom: 1
+} /* 增加清除浮动样式时，要注意当前元素是否为块结构，如果不是，要添加属性 display: block */
+.clear {
+	display: block !important;
+	float: none !important;
+	clear: both;
+	width: auto !important;
+	height: 0;
+	margin: 0 auto !important;
+	padding: 0 !important;
+	font-size: 0;
+	line-height: 0
+}
+
+.brank {
+	line-height: 8px;
+	clear: both;
+	height: 8px;
+	margin: 0 auto !important;
+	padding: 0 !important;
+	font-size: 0;
+	float: none !important;
+}
+
+.none {
+	display: none;
+}
+
+table {<!--
+	border-collapse: collapse;
+	-->
+}
+
+.header {
+	height: 16.8%;
+	width: 100%;
+	position: relative;
+	background: #fff;
+	/* 	box-shadow: 1px 1px 3px #999; */
+}
+
+.header .logo {
+	width: 140px;
+	position: absolute;
+	left: 40px;
+	top: 0px;
+}
+
+.header .nav {
+	width: 736px;
+	margin: 0 auto;
+}
+
+.header .header_r {
+	width: 235px;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+
+.header .header_r a {
+	font-size: 14px;
+	color: #010101;
+}
+
+.header .header_r .search_form {
+	width: 180px;
+	height: 30px;
+}
+
+.header .header_r .search_form .search_text {
+	border: none;
+	background: none;
+	width: 150px;
+	padding: 0 6px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+}
+
+.header .header_r .search_form .search_btn {
+	border: none;
+	background: none;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.header .nav li {
+	float: left;
+	width: 104px;
+	height: 112px;
+	text-align: center;
+	position: relative;
+}
+
+.header .nav li a {
+	display: inline-block;
+	width: 104px;
+	height: 94px;
+	padding-top: 10px;
+	line-height: 64px;
+	font-size: 16px;
+	color: #80ffff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.header .nav li span {
+	display: block;
+	width: 104px;
+	height: 94px;
+	padding-top: 18px;
+	line-height: 64px;
+	font-size: 16px;
+	color: #010101;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+.header .nav li em {
+	display: block;
+	width: 104px;
+	height: 112px;
+	overflow: hidden;
+}
+
+.header .nav li:hover a, .header .nav li.cur a {
+	color: #fff;
+	background: #ffb18c;
+	vertical-align: top;
+}
+
+.header .nav li:hover span, .header .nav li.cur span {
+	margin-top: -112px;
+}
+
+.header .nav li ul {
+	position: absolute;
+	width: 192px;
+	background: #fff;
+	z-index: 9;
+	display: none;
+}
+
+.header .nav li ul li {
+	width: 192px;
+	height: 33px;
+	line-height: 33px;
+	text-align: left;
+}
+
+.header .nav li ul li a {
+	height: 33px;
+	line-height: 33px;
+	width: 174px;
+	padding: 0 0 0 10px;
+	background: #fff !important;
+	color: #010101 !important;
+}
+
+.header .nav li ul li a:hover {
+	background: #97ffff !important;
+	color: #ff0281 !important;
+}
+
+.wrap {
+	width: 1116px;
+	margin: 0 auto;
+}
+/* ------------------------------------------  */
+#users {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10%;
+}
+
+#users a {
+	color: #2e2e2e;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+}
+
+#users a:hover {
+	color: #ff8000;
+}
+
+#users #userlogin div {
+	float: left;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#userlogin a:hover {
+	color: #ff8000;
+}

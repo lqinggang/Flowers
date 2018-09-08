@@ -1,0 +1,67 @@
+#left {
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+#left .panel {
+	text-align: center;
+	border: 1px solid;
+	border-color: #777777;
+	border-radius: 3px;
+}
+
+#left .panel-body hr {
+	margin: auto;
+	color: #FF000;
+	height: 2px;
+	width: 90%;
+	text-align: center;
+}
+
+#left .panel .heading {
+	font-size: 18px;
+	background-color: #ffaaff;
+	margin-bottom: 10px;
+}
+
+#left .panel .heading .title {
+	color: #2F4056;
+}
+
+.side-item {
+	margin: 1% 1% 0 1%;
+}
+
+.side-item .images a {
+	color: #FF6A00;
+}
+
+.side-item .images a img {
+	width: 90%;
+	height: 35%;
+	background: no-repeat;
+}
+
+.info .price {
+	text-align: center;
+	color: #FF0000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.side-item .info {
+	margin: 1%;
+	text-align: center;
+}
+
+.side-item .info span {
+	display: block;
+}
+
+.info .name {
+	font-size: 16px;
+	height: 25px;
+	color: #ff00ff;
+}

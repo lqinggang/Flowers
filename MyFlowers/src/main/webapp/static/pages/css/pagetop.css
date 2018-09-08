@@ -1,0 +1,52 @@
+/**
+ * 
+ * @authors LQingGang 
+ * @date    2018-03-14 14:58:14
+ * @version 1.0
+ */
+
+/*top menu*/
+.header #top_menu {
+	margin-right: 5%;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: right;
+	font-size: 5px;
+}
+
+.header #top_menu li {
+	padding: 0;
+	margin-left: 5px;
+	line-height: 25px;
+}
+
+.header #top_menu li a {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/*Sides*/
+.header #top_sides img {
+	float: left;
+	height: 41.5%;
+	width: 35%;
+}
+
+/*Arousel*/
+.header #top_arousel {
+	float: left;
+	height: 10%;
+}
+
+.header #entry div img {
+	background-repeat: no-repeat;
+}
+/*navigation*/
+.header #navigation {
+	background-color: #FFFFCC;
+	font-size: 22px;
+}
+
+.header #navigation li a {
+	color: #000000;
+}

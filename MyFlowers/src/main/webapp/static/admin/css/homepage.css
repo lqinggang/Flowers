@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+.welcome {
+	line-height: 60px;
+	color: #468847;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	width: 90%;
+	margin: 2% 5%;
+}
+
+.close {
+	border: none;
+	background: transparent;
+	float: right;
+	margin-top: 25px;
+	margin-right: 3%;
+}
+
+.infodiv {
+	height: 100px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.infodiv .entry {
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin-right: 5%;
+	border: 1px solid #C0C0C0;
+}
+
+.infodiv .entry  .ico {
+	float: left;
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 30%;
+}
+
+.infodiv .entry  .info {
+	width: 70%;
+	padding-top: 10%;
+}
+
+#help {
+	margin: 1% 1%;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	color: #585858;
+}
+
+#help tr td {
+	width: 50%;
+}
+
+#help span {
+	display: block;
+}
+
+#help .help-title {
+	margin: 3%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#help .entry-title {
+	margin: 5% 5% 0 5%;
+	font-size: 16px;
+}
+
+#help .entry-content {
+	margin-left: 8%;
+	margin-bottom: 2%;
+	color: #7f7f7f;
+}
+
+#logs {
+	width: 70%;
+	margin-left: 5%;
+	margin-top: 5%;
+	float: left;
+	color:#ff8080;
+}
+
+#info {
+	float: left;
+	width: 25%;
+	margin-top: 5%;
+}

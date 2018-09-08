@@ -1,0 +1,155 @@
+.rfm_header{
+	height: 48px;
+	border-bottom: 2px solid #c4ceda;
+}
+.rfm_header ul li{
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}
+.rfm_header ul li a{
+	color: #37475e;
+	padding: 0 15px;
+}
+.rfm_header ul .active{
+	border-bottom: 2px solid #3498db;
+}
+.rfm_header ul .active a{
+	color: #333333;
+	font-weight: bold;
+}
+.data_time_set{
+	height: 25px;
+	-ine-height: 30px !important;
+	color: #666;
+	font-size: 12px;
+	margin: 0 10px;
+}
+.data_time_set>*{
+	float: left;
+	margin-top: 5px;
+}
+.data_time_set{
+	margin-top: 10px;
+}
+.now_time{
+	padding: 0 5px;
+}
+
+/*RFM表格*/
+
+.tb_zero{
+	background: #f9d793;
+}
+
+.tb_one{
+	background: #d7ebf9;
+}
+.tb_ten{
+	background: #b9dbf5;
+}
+.tb_half{
+	background: #8fc7ed;
+}
+.tb_high{
+	-background: #f8686d;
+	background: #54a9df;
+}
+.tb_top{
+	background: #3498db;
+}
+
+#RFM_table{
+	margin-top: 15px;
+	width: 100%;
+	border-collapse: inherit;
+}
+#RFM_table td{
+	text-align: center;
+	border: none;
+	color: #4d5573;
+}
+#RFM_table th{
+	line-height: 30px;
+	-border: 1px solid #CCCCCC;
+	background: #f1f1f1;
+	-color: white;
+}
+#RFM_table td>*{
+	margin: 5px 0;
+}
+#F_table{
+	margin-top: 15px;
+	width: 100%;
+}
+#F_table th{
+	line-height: 35px;
+	border: 1px solid #CCCCCC;
+	background: #676d7d;
+	text-align: left;
+	padding: 0 10px;
+	color: white;
+}
+#F_table td{
+	text-align: center;
+	height: 35px;
+	padding: 0px;
+	text-align: right;
+	padding: 0 10px;
+}
+#F_table td:nth-of-type(4){
+	text-align: left;
+}
+.right_radiobox{
+	float: right;
+}
+
+#data_M_set>*{
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+#data_M_set .select-main{
+	width: 100px;
+}
+#data_M_set .select-set{
+	width: 48px;
+}
+#data_M_set .select-block{
+	width: 100px;
+}
+#data_r_set .select-main:nth-child(1){
+	width: 300px;
+}
+#data_r_set .select-main:nth-of-type(1) .select-set{
+	width: 88px;
+}
+#data_r_set .select-main:nth-of-type(1) .select-block{
+	width: 300px;
+}
+.date_set{
+	line-height: 25px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	width: 80px;
+	padding: 0 5px;
+	color: #666666;
+}
+input:disabled{
+	background: #eee;
+	color: #999;
+}
+.save{
+	height: 27px;
+	border-radius: 3px;
+	background: #ffaf48;
+	color: white;
+	box-shadow: none;
+	border: none;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	padding: 0 10px;
+}

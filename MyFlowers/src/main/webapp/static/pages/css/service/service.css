@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+
+#serviceleft {
+	margin-left: 20%;
+	margin-top: 8%;
+	border: 1px solid #f2f2f2;
+	box-shadow: -1px 1px 0px 0px #d2d2d2;
+	width: 80%;
+	color: #000;
+}
+
+.position {
+	text-align: center;
+}
+
+.positon div {
+	align: center;
+}
+
+.category .categorytitle {
+	color: #494949;
+}
+
+#serviceleft a {
+	color: #929292;
+}
+
+#serviceleft a:hover {
+	color: #ff8000;
+}
+
+#serviceleft #serivcetitle {
+	height: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-weight: bold;
+	background-color: #aaffaa;
+}
+
+#serviceleft #serivcetitle img {
+	height: 120%;
+	width: 26%;
+	margin-left: -4%;
+	padding-right: 5%;
+	font-size: 18px;
+}
+
+.ico {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	maigin-left: 40%;
+}
+
+.hd .category {
+	padding-left: 20%;
+	padding-top: 10%;
+	padding-bottom: 2%;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.bd li {
+	margin: 2%;
+	margin-left: 20%;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.service {
+	color: #5d5d5d;
+}
+
+.service .title {
+	text-align: center;
+	color: #808080;
+}
+
+#problem .problemlist {
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#problem .problemlist .problemtitle {
+	font-size: 18px;
+	color: #ff8000;
+	font-weight: bold;
+	display: inline-block;
+	border-bottom: 2px solid #a0a0a0;
+}
+
+#problem .problemlist .problemcontent {
+	font-size: 18px;
+	color: #868686;
+}
+
+#complaints .sequence {
+	width: 10px;
+	height: 10px;
+	margin-left: 5%;
+	margin-right: 5px;
+	background-color: #ff80ff;
+}
+
+#complaints p {
+	font-size: 18px;
+	width: 80%;
+	margin: 5%;
+}
+
+.bar {
+	margin-left: 8%;
+	width: 80%;
+	margin-bottom: 5%;
+}
+
+.bar .descriptiontitle {
+	font-weight: bold;
+	color: #ff8000;
+	display: inline-block;
+	border-bottom: 2px solid #a0a0a0;
+}
+
+.navigation {
+	background-color: #f9f9f9;
+	border-top: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	font-family: KaiTi, Arial, "Microsoft YaHei";
+	height: 40px;
+	font-size: 20px;
+}
+
+.navigation span {
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 7px;
+}
+
+#orders #allorders {
+	height: 80%;
+}
+
+#orders #orderssearch {
+	height: 20%;
+}
+
+.commoditynumber {
+	width: 20%;
+}
+
+.commodityname {
+	width: 40%;
+}
+
+.commodityname img {
+	width: 70px;
+	height: 70px;
+}
+
+.commoditydate {
+	width: 20%;
+}
+
+.commodityprice {
+	font-style: itatic;
+	font-weight: bold;
+	width: 10%;
+}
+
+.commoditystatus {
+	width: 10%;
+}

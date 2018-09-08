@@ -1,0 +1,106 @@
+a {
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
+a:hover {
+	color: #FF8000;
+}
+
+body {
+	font-size: 18px;
+}
+
+.clear {
+	display: inline;
+	clear: both;
+}
+
+.blank {
+	height: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	align: center;
+}
+
+.logo {
+	margin-left: 8%;
+	margin-top: 1%;
+}
+
+.logo img {
+	width: 100px;
+	height: 80px;
+}
+
+.separate {
+	height: 2px;
+	width: 90%;
+	background: #d4d4d4;
+}
+
+.logo .separate {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 5px;
+	width: 90%;
+	background: #d4d4d4;
+}
+
+.price {
+	font-size: 18px;
+	color: red;
+	font-style: itatic;
+	font-weight: bold;
+}
+
+#layout .top {
+	width: 100%;
+}
+
+#layout .left {
+	width: 20%;
+	float: left;
+}
+
+#layout .body {
+	float: left;
+	margin-left: 3%;
+	margin-top: 1%;
+	width: 70%;
+}
+
+#layout .bottom {
+	clear: both;
+	width: 100%;
+}
+
+.flowers a {
+	color: #808080;
+	font-size: 14px;
+}
+
+.flowers  a:hover {
+	color: #ff8000;
+}
+
+.flowers  .info .info-price {
+	font-weight: bold;
+}
+
+.layui-layer-page .layui-layer-title {
+	font-size: 16px;
+	color: red;
+}
+
+.layui-layer-page .layui-layer-content {
+	font-size: 20px;
+	text-align: center;
+	color: #C0C0C0;
+	top: 20%;
+}

@@ -1,0 +1,68 @@
+#registered {
+	margin-left: 2%;
+	margin-top: 2%;
+	padding-top: 5%;
+	width: 95%;
+	border: 1px solid #C0C0C0;
+	border-radius: 15px;
+}
+
+#registered .logo img {
+	width: 10%;
+	height: 6%;
+	padding-left: 10%;
+}
+
+#registered .logo .separate {
+	margin-left: 10%;
+	width: 80%;
+	height: 3px;
+	background-color: #C0C0C0;
+}
+
+#formregistered {
+	clear: both;
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 10%;
+}
+
+#formregistered .layui-input-inline {
+	width: 26.9%;
+}
+
+#note {
+	font-size: 14px;
+}
+
+#note .title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+#note .readregulations {
+	color: #b6b6b6;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+#note .regulations {
+	color: #C0C0C0;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+
+.dividing {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 1px;
+	width: 100%;
+	background: #d4d4d4;
+}
+
+.button {
+	padding-left: 27%;
+}

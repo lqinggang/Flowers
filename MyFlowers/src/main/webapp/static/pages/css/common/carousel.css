@@ -1,0 +1,23 @@
+/*Sides*/
+#carousel {
+	height: 40%;
+	width: 100%;
+}
+
+#carousel #top_sides {
+	width: 37%;
+}
+
+#carousel #top_sides img {
+	width: 100%;
+}
+
+#carousel #top_arousel #entry {
+	display: inline;
+}
+
+#carousel #top_carousel #entry div img {
+	height: 100%;
+	display: inline;
+	background-repeat: no-repeat;
+}

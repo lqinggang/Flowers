@@ -1,0 +1,50 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+li { list-style:none; }
+a { text-decoration : none}
+a:hover {text-decoration: none;}
+b{ font-weight: normal;}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea,a,button{ outline:none;}
+textarea { resize:none; overflow:auto; }
+body {font-size:12px; font-family:"微软雅黑"; color: #333; }
+
+table {
+    margin: 0 auto 0;
+}
+table h6{
+	margin: 0; padding: 0;
+}
+.data_wrap{
+	width: 1040px;
+	margin: 0px auto;
+}
+
+.my_main>div:last-of-type>div{
+	overflow: inherit !important;
+}
+.my_main textarea{
+	width: 97% !important;
+}
+.my_main2 textarea{
+	width: 98.5% !important;
+}
+.xsfx_tips{
+	width: 1000px;
+	line-height: 20px;
+	background: #d9edf7;
+	color: #4f92b5;
+	padding: 10px;
+	position: relative;
+}
+.xsfx_tips i{
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.yellow_tips{
+	color: #ffad00;
+	display: block;
+}

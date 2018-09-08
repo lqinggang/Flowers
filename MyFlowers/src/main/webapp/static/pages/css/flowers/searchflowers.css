@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+#searchbody {
+	width: 99%;
+	height: 99%;
+	border: 1px solid #d8d8d8;
+}
+
+#searchbody .search-condition {
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 1%;
+	height: 8%;
+}
+
+#searchbody .search-result {
+	height: 85%;
+}
+
+#searchbody .search-result .row {
+	width: 100%;
+}
+
+#searchbody .search-result .row .col {
+	border: 1px solid #d8d8d8;
+	float: left;
+	width: 18.7%;
+	height: 16%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 1%;
+}
+
+.row .flowersimage img {
+	width: 100%;
+	height: 80%;
+}
+
+#searchbody .search-result .row .info span {
+	display: block;
+	text-align: center;
+}

@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+#footer {
+	clear: both;
+	margin-top: 5%;
+}
+
+#footer * {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	overflow: auto;
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1; /* IE <8 */
+}
+
+/*bottom*/
+#footer #bottom {
+	clear: both;
+	height: 60px;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	color: #777777;
+}
+
+.center span a {
+	color: #777777;
+}
+
+.center {
+	/* 	background-color:red; */
+	color: #777777;
+	text-align: center;
+}
+
+.center .bottom-link a {
+	align: center;
+	color: red;
+}
+
+.center p {
+	text-color: #777777；
+}
+
+.auth a img {
+	height: 40px;
+	width: 106px;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+#footer #service-link {
+	clear: both;
+	margin-top: 5%;
+	background: #fafafa;
+	height: 30%;
+	border-top: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#footer #service-link .service {
+	width: 33%;
+	float: left;
+	height: 100%;
+}
+
+.service .serviceblock {
+	margin-top: 20%;
+	margin: 20%;
+}
+
+.ul .li {
+	clear: both;
+}
+
+.serviceblock  .servicename {
+	text-align: center;
+	margin-top: 10%;
+	font-weight: bold;
+	color: #464646;
+}

@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+.catrgory {
+	float: left;
+	border: 1px solid #C0C0C0;
+	width: 98%;
+	height: 14%;
+	margin-left: 1%;
+	margin-bottom: 5%;
+}
+
+.catrgory .categoryname {
+	float: left;
+	width: 20%;
+	border-right: 1px solid #C0C0C0;
+	text-align: center;
+	margin-right: 1.8%;
+}
+
+.catrgory .categoryname .name {
+	font-size: 20px;
+	background-color: #FFC0CB;
+}
+
+.name a {
+	color: #808080;
+}
+
+.name a:hover {
+	color: #ff8000;
+}
+
+.catrgory .categoryname img {
+	width: 100%;
+	height: 90%;
+}
+
+/* .catrgory .category-flowers .flowers div {
+	float: left;
+} */
+.category-flowers .flowers {
+	float: left;
+	margin-left: 3px;
+	width: 18.9%;
+	height: 100%;
+	border: 1px solid #C0C0C0;
+	display: inline;
+}
+
+/* .catrgory .category-flowers:nth-child(1) {
+	margin-left: 2%;
+} */
+.category-flowers .flowers a img {
+	width: 100%;
+	height: 80%;
+	border-bottom: 1px solid #C0C0C0;
+	display: inline;
+}
+
+.category-flowers .flowers a {
+	color: #737373;
+}
+
+.category-flowers .flowers a:hover {
+	color: #ff8000;
+}
+
+.flowersimage {
+	height: 90%;
+	width: 20%;
+}
+
+.info span {
+	display: block;
+	text-align: center;
+}
+
+.info  .flowernumber {
+	font-size: 12px;
+}
+
+.info .flowerprice {
+	font-weight: bold;
+	font-style: italic;
+}

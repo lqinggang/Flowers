@@ -1,0 +1,189 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%><%@ taglib
+	prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<base href="<%=basePath%>">
+
+<title>新增用户</title>
+
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<link rel="stylesheet" href="static/layui/css/layui.css" />
+<script type="text/javascript" src="static/layui/layui.js"></script>
+<script type="text/javascript" src="static/pages/assets/data.js"></script>
+<script type="text/javascript" src="static/pages/assets/province.js"></script>
+<script type="text/javascript">
+	var defaults = {
+		s1 : 'provid',
+		s2 : 'cityid',
+		s3 : 'areaid',
+		v1 : null,
+		v2 : null,
+		v3 : null
+	};
+</script>
+</head>
+
+<body>
+	<div
+		style="width:60%;margin:5% 0;margin-left:15%;border:1px solid #C0C0C0;padding:5%;">
+		<form id="formregistered" class="layui-form layui-form-pane"
+			action="admin/users/add" method="post">
+			<div class="layui-form-item">
+				<label class="layui-form-label">用户名：</label>
+				<div class="layui-input-block">
+					<input type="text" name="name" id="name" placeholder="请输入用户名"
+						autocomplete="off" class="layui-input" value="">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">密码：</label>
+				<div class="layui-input-block">
+					<input type="password" name="password" placeholder="请输入密码"
+						autocomplete="off" class="layui-input" value="">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">再次输入：</label>
+				<div class="layui-input-block">
+					<input type="password" name="password2" placeholder="请再次输入密码"
+						autocomplete="off" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item" pane>
+				<label class="layui-form-label">性别：</label>
+				<div class="layui-input-block">
+					<input type="radio" name="gender" value="男" title="男"> <input
+						type="radio" name="gender" value="女" title="女" checked>
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">年龄：</label>
+				<div class="layui-input-block">
+					<input type="text" name="age" placeholder="请输入年龄"
+						autocomplete="off" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">生日：</label>
+				<div class="layui-input-block">
+					<input type="text" class="layui-input" id="calendar"> <input
+						type="text" class="layui-input" id="birtyday" name="birtyday"
+						style=" display:none;" value="">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">联系电话：</label>
+				<div class="layui-input-block">
+					<input type="text" name="telephone" placeholder="请输入电话号码"
+						autocomplete="off" class="layui-input" value="">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">Email：</label>
+				<div class="layui-input-block">
+					<input type="text" name="email" placeholder="请输入Email"
+						autocomplete="off" class="layui-input" value="">
+				</div>
+			</div>
+
+			<div class="layui-form-item">
+				<label class="layui-form-label">选择地区</label>
+				<div class="layui-input-inline">
+					<select name="provid" id="provid" lay-filter="provid">
+						<option value="">请选择省</option>
+					</select>
+				</div>
+				<div class="layui-input-inline">
+					<select name="cityid" id="cityid" lay-filter="cityid">
+						<option value="">请选择市</option>
+					</select>
+				</div>
+				<div class="layui-input-inline">
+					<select name="areaid" id="areaid" lay-filter="areaid">
+						<option value="">请选择县/区</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="layui-form-item">
+				<label class="layui-form-label">详细地址：</label>
+				<div class="layui-input-block">
+					<input type="text" name="address2" placeholder="请输入详细地址"
+						autocomplete="off" class="layui-input" value="">
+				</div>
+			</div>
+
+			<div class="layui-form-item layui-form-text">
+				<label class="layui-form-label">备注</label>
+				<div class="layui-input-block">
+					<textarea name="description" placeholder="请输入内容"
+						class="layui-textarea"></textarea>
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<div class="layui-input-block" style="margin-left:40%;">
+					<button class="layui-btn" lay-submit id="submit">立即提交</button>
+					<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<c:choose>
+		<c:when test="${!empty requestScope.msg }">
+			<script type="text/javascript">
+				layui.use('layer', function() {
+					var $ = layui.$,
+						layer = layui.layer;
+					layer.open({
+						type : 1,
+						area : [ '240px', '120px' ],
+						offset : 'auto',
+						title : '<i class="fa fa-exclamation"></i>Info',
+						content : '<span style="color:red;">${requestScope.msg}</span>'
+					});
+				})
+			</script>
+		</c:when>
+	</c:choose>
+</body>
+<!-- 日历 -->
+<script>
+	/* 	function calendar() { */
+	layui.use('laydate', function() {
+		var laydate = layui.laydate;
+
+		//执行一个laydate实例
+		laydate.render({
+			elem : '#calendar', //指定元素
+			done : function(value, date, endDate) {
+				var birtyday = document.getElementById("birtyday");
+				birtyday.value = value;
+				lay('#calendar').html(value);
+			}
+		});
+	});
+	/* 	} */
+</script>
+
+<script>
+	layui.use([ 'form', 'layer', 'laypage', 'laydate' ], function() {
+		var form = layui.form,
+			layer = layui.layer, //获得layer模块
+			laypage = layui.laypage, //获得laypage模块
+			laydate = layui.laydate, //获得laydate模块
+			element = layui.element;
+
+	//使用模块
+	});
+</script>
+</html>

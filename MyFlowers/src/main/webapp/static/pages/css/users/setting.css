@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0px;
+}
+
+.basicdata, .passworddata, .contactdata {
+	border: 1px solid #C0C0C0;
+	width: 99%;
+}
+
+.basicdata a, .passworddata a, .contactdata a {
+	color: #6d6d6d;
+}
+
+.basicdata a:hover, .passworddata a:hover, .contactdata a:hover {
+	color: #ff8000;
+}
+
+.settingnavigation {
+	height: 40px;
+	font-size: 20px;
+	background-color: #f9f9f9;
+	font-family: KaiTi, Arial, "Microsoft YaHei";
+}
+
+.settingnavigation span {
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 7px;
+}
+
+.passwordsetting {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+}
+
+.basicdata #basic_data_setting {
+	height: 35%;
+	border: 1px solid #C0C0C0;
+}
+
+.basicdata #basic_data_setting #formbasic {
+	border: 1px solid #C0C0C0;
+	width: 70%;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 5%;
+	align: center;
+}
+
+.passworddata #password_setting {
+	height: 20%;
+	border: 1px solid #C0C0C0;
+}
+
+.passworddata #password_setting #formpassword {
+	border: 1px solid #C0C0C0;
+	width: 70%;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 5%;
+	align: center;
+}
+
+.contactdata #contact_setting {
+	height: 21%;
+	border: 1px solid #C0C0C0;
+}
+
+.contactdata #contact_setting #formcontact {
+	border: 1px solid #C0C0C0;
+	width: 70%;
+	margin: 5%;
+	padding: 5%;
+	align: center;
+}
+
+#formcontact .layui-input-inline {
+	width: 26%;
+}

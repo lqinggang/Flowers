@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0 10px;
+	color: #333;
+	text-align: center;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, form, ul, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+div#AddDP {
+	text-align: left;
+	border: 1px solid #ffdfb6;
+	background: #fffbf5;
+}

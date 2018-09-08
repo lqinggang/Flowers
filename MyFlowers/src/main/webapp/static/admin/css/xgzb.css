@@ -1,0 +1,19 @@
+.xhzb_wrap{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.my_main1{
+    width: 510px;
+    height: 250px;
+    float: left;
+}
+.my_main2{
+    width: 510px;
+    height: 250px;
+    float: right;
+}
+.my_main3{
+    width: 100%;
+    height: 250px;
+}

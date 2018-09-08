@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#about {
+	border: 1px solid #C0C0C0;
+	font-size: 18px;
+	height: 99%;
+}
+
+#about .abouttitle {
+	width: 90%;
+	height: 18%;
+	font-size: 25px;
+	padding-left: 10%;
+	padding-top: 10%;
+	background: url(../../images/page/banner_pages.jpg) no-repeat;;
+}
+
+#about .abouttitle .position {
+	padding-left: -8%;
+	font-size: 18px;
+}
+
+#about .abouttitle .position a {
+	text-decoration: none;
+	color: #141414;
+}
+
+#about .abouttitle .position a:hover {
+	color: #ff8000;
+}
+
+#about .infotitle {
+	height: 3%;
+	font-size: 35px;
+	text-align: center;
+	background-color: #ffa64d;
+}
+
+#about .aboutinfo .aboutimage img {
+	float: left;
+	width: 50%;
+	height: 25%;
+}

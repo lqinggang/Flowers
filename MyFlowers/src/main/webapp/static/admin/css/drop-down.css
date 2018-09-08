@@ -1,0 +1,147 @@
+
+
+table {
+	border-collapse: collapse;
+	margin: 50px auto 0;
+	width: 815px;
+}
+
+table td {
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+}
+
+table td h2 {
+	color: #FFFFFF;
+	font-size: 1.7em;
+	margin-bottom: 15px;
+}
+
+div.select-main {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	-box-shadow: 0 0 2px #CCCCCC;
+	border-radius: 3px;
+	font-size: 12px;
+	height: 25px;
+	position: relative;
+	width: 80px;
+	margin: 0 5px;
+	
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    display: inline-block;
+}
+
+div.select-main.z-index {
+	z-index: 10;
+}
+
+div.select-main.disabled {
+	cursor: default;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	zoom: 1;
+}
+
+div.select-main.disabled div.select-set {
+	cursor: default;
+}
+
+div.select-main.disabled div.select-arrow {
+	cursor: default;
+}
+
+div.select-set {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	position: relative;
+	padding: 0 35px 0 15px;
+	width: 30px;
+	z-index: 5;
+}
+
+div.select-arrow {
+	border-top: 7px solid #CCCCCC;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	cursor: pointer;
+	height: 0px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 0px;
+	z-index: 7;
+}
+
+div.select-arrow.reverse {
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid #CCCCCC;
+	top: 4px;
+}
+
+div.select-block {
+	background-color: #FFFFFF;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #CCCCCC;
+    left: -1px;
+    line-height: 20px;
+    position: absolute;
+    top: 32px;
+    width: 80px;
+}
+
+ul.select-list {
+	cursor: pointer;
+	-margin: 15px 0 7px;
+}
+
+/* Scroll view */
+
+ul.select-list::-webkit-scrollbar {
+    width: 12px;
+}
+
+ul.select-list::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+ul.select-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+}
+
+ul.select-list {
+	scrollbar-face-color: #AEB1B1;
+    scrollbar-shadow-color: #C7CACA;
+    scrollbar-highlight-color: #CED1D1;
+    scrollbar-3dlight-color: #CED1D1;
+    scrollbar-darkshadow-color: #C7CACA;
+    scrollbar-track-color: #CED1D1;
+    scrollbar-arrow-color: #333;
+}
+
+/* End scroll view */
+
+li.select-items {
+	color: #333333;
+	padding: 3px 15px;
+}
+
+li.select-items:hover,
+li.select-items.active {
+	background-color: #3498db;
+	color: #FFFFFF;
+}
+
+/*www.198zone.com*/

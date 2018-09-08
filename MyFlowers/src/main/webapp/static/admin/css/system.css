@@ -1,0 +1,92 @@
+.System_header{
+	color: #333;
+	padding: 10px 5px;
+	overflow: hidden;
+	box-shadow:0px 0px 10px rgba(97,169,220,0.8);
+	-border: 1px solid #61a9dc;
+}
+.System_header h6{
+	font-size: 18px;
+	float: left;
+	margin: 0;
+	line-height: 50px;
+	color: #666;
+}
+.System_header_right{
+	float: right;
+}
+.System_header_right li{
+	float: left;
+	margin-right: 15px;
+	margin-left: 20px;
+}
+.System_header_right li span{
+	float: left;
+	text-align: center;
+	margin-left: 15px;
+}
+.total_people{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.System_header_right li:nth-of-type(1) .total_people{
+	background: #61a9dc;
+}
+.System_header_right li:nth-of-type(2) .total_people{
+	background: #f7c560;
+}
+.System_header_right li span{
+	font-size: 11px;
+	color: #999;
+}
+.numAll{
+	font-size: 18px;color: #333333;
+	margin-top: 5px;
+}
+.total_people i{
+	color: white;
+	font-size: 18px;
+	padding-top: 15px;
+}
+.System_wrap{
+	overflow: hidden;
+	margin-top: 15px;
+}
+.System_box{
+	width: 700px;
+	height: 500px;
+	border: 1px solid #61a9dc;
+	border-radius: 3px;
+	float: left;
+}
+.System_box_title{
+	line-height: 45px;
+	background: #61a9dc;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+#myStat{
+	margin: 50px auto 0;
+}
+
+.circle-info, .circle-info-half{
+	color: #666;
+	font-size: 14px;
+}
+#main>div:last-of-type>div,#main2>div:last-of-type>div,#main3>div:last-of-type>div,#main4>div:last-of-type>div,#main5>div:last-of-type>div{
+	overflow: inherit !important;
+}
+#my_date_set1,#my_date_set2{
+	position: absolute;
+	z-index: 99;
+	right: 230px;
+	color: #3fa7d9;
+}
+#my_date_set1{
+	top: 6px;
+}
+#my_date_set2{
+	top: 726px;
+}

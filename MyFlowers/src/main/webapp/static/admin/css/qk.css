@@ -1,0 +1,51 @@
+
+.qk_wrap{
+	display: -webkit-box; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: -o-box; 
+    display: box; 
+    behavior: url(ie-css3.htc);
+	-ms-flex-pack:justify;
+	-ms-flex-align:justify;
+	-moz-box-pack:justify;
+	-moz-box-align:justify;
+	-webkit-box-pack:justify;
+	-webkit-box-align:justify;
+	box-pack:justify;
+	box-align:justify;
+	width: 1020px;
+	overflow: hidden;
+}
+.qk_top{
+	background: white;	
+	height: 150px;
+	text-align: center;
+	line-height: 150px;	
+	width: 333px;
+	position: relative;
+	font-size: 16px;
+}
+.qk_top span{
+	font-size: 28px;
+	font-family: arial;
+	padding: 0 10px;
+}
+.qk_top p{
+	position: absolute;
+	right: 10px;
+	bottom: 7px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+}
+.qk_wrap h3{
+	line-height: 30px;
+	margin-top: 15px;
+	font-weight: normal;
+	font-size: 18px;
+}
+.my_main{
+	width: 505px;
+	height: 350px;
+}
