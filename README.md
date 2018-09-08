@@ -1,5 +1,4 @@
 # 基于Web的鲜花销售平台设计
--
 基于MVC设计模式 <br> 
 数据库：MySQL <br>  
 开发工具：MyEclipse2017<br>  
