@@ -88,7 +88,7 @@
 						<div class="controls">
 							<div class="main_input_box">
 								<span class="add-on bg_ly"> <i><img height="37"
-										src="static/pages/images/page/suo.png" /></i>
+										src="static/pages/images/page/lock.png" /></i>
 								</span><input type="password" name="password" id="password"
 									placeholder="请输入密码" class="keypad" keypadMode="full"
 									allowKeyboard="true" value="${requestScope.password }" />
@@ -113,7 +113,7 @@
 						<div style="width:80%;padding-left:8%;">
 							<div>
 								<span style="float: left;padding-top:2px;"> <i><img
-										src="static/pages/images/page/yan.png" /></i>
+										src="static/pages/images/page/check.png" /></i>
 								</span> <span style="float: left;" class="codediv"
 									style="margin-left:0;width:80%;"> <input type="text"
 									name="code" id="code" class="login_code"
